@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Calculator http://blog.abraseucodigo.com.br/resolucao-01-calculadora-basica-grupo-de-estudos.html
-# Lipe
+# Lipe lipe
 
 import sys
 operacao = input("Qual operação deseja fazer? ( * / - +)\n")
