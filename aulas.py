@@ -33,7 +33,7 @@ print('Vocẽ nasceu em', dia, 'de', mes, 'de', ano, '. Correto ? ')
 print('==== Desafio 03 ====')
 number_1 = float(input('Digite o primeiro numero '))
 number_2 = float(input('Digite o segundo numero '))
-soma = number_1+number_2
-print('A soma do numeros digitados é',soma)
+soma = number_1 + number_2
+print('A soma do números digitados é',soma)
 
 # fim aula 1 - 16.10.2020 - Felipe Ferreira de Aguiar
