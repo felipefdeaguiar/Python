@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*- 
 
 import sys
 operacao = input("Qual operação deseja fazer? ( * / - +)\n")
