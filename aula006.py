@@ -15,7 +15,7 @@ print('A soma de {} com {} é igual a {}'.format(number_1, number_2, sum))
 
 #desafio 004 - crie um programa que leia algo pelo teclado e mostre na tela seu tipo primitivo e todas as informações
 x = input('digite algo aqui! ')
-print('Qual é o tipo de classe digitada',type(x))
+print('Qual é o tipo primitivo digitado',type(x))
 print('O que foi digitado é uma letra? ',x.isalpha())
 print('O que foi digitado é alfanumérico? ', x.isalnum())
 print('O que foi digitado é número? ', x.isnumeric())
