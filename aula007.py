@@ -53,3 +53,38 @@ tab_10 = n1 * 10
 print('A tabuada até 10 é {},{},{},{},{},'.format(n1, tab_2, tab_3, tab_4, tab_5), end='')
 print('{},{},{},{}e{}'.format(tab_6, tab_7, tab_8, tab_9, tab_10))
 
+#desafio 010 - crie um programa que leia quanto dinheiro uma pessoa tem na carteira e
+#mostre quantos dolares ela pode comprar (cambio USD 3,27)
+real = float(input('Desafio 010 - Digite quantos Reais voce tem na carteira '))
+cambio = 3.27
+usd = real / cambio
+print('você tem na carteira BRL {:.2f} e pode comprar USD {:.2f} '.format(real, usd), end='')
+print('com o cambio atual de {}'.format(cambio))
+
+#desafio 011 - crie um programa que leia a largura e altura em metros de uma parede e calcule a sua
+#area, e a quantidade de tinta necessaria para pinta-la, sabendo que cada litro de tinta pinta 2m²
+largura = float(input('Desafio 011 - Digite em metros a largura da parede '))
+altura = float(input('Digite em metros a altura da parede '))
+area = largura * altura
+tinta = area / 2
+galao = tinta / 3.6
+print('A area total da parede é {}m² e sera necessário {:.2f} '.format(area, tinta), end='')
+print('litros de tinta para pinta-la ou {:.2f} galoes'.format(galao))
+
+#desafio 012 - crie um programa que leia o preço do produto e mostre seu novo preço com 5% de desconto
+preco = float(input('Desafio 012 - Qual o preço do produto? '))
+desconto = (5 / 100) * 100
+novo = (preco * desconto) / 100
+preco_n = preco - novo
+print('O com o desconto de {} % o novo preço será R$ {}'.format(desconto, preco_n))
+
+#desafio 013 - crie um programa que leia o salario de um funcionario e mostre seu novo
+#salario com 15% de aumento
+salario = float(input('Qual o seu salario atual? '))
+aumento = (15 / 100) * 100
+novo = (salario * aumento) / 100
+salario_n = salario + novo
+print('O seu salário é R$ {:.2f}, com aumento de {:.0f} % '.format(salario, aumento), end='')
+print('o seu novo salário é R$ {:.2f}, parabéns!'.format(salario_n))
+
+
