@@ -52,3 +52,4 @@ tab_9 = n1 * 9
 tab_10 = n1 * 10
 print('A tabuada até 10 é {},{},{},{},{},'.format(n1, tab_2, tab_3, tab_4, tab_5), end='')
 print('{},{},{},{}e{}'.format(tab_6, tab_7, tab_8, tab_9, tab_10))
+
