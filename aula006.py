@@ -21,4 +21,3 @@ print('O que foi digitado é alfanumérico ? {}'.format(x.isalnum()))
 print('O que foi digitado é número ? {}'.format(x.isnumeric()))
 print('O que foi digitado está em maiusculo ? {}'.format(x.isupper()))
 print('O que foi digitado está em minusculo ? {}'.format(x.islower()))
-
