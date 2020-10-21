@@ -86,5 +86,3 @@ novo = (salario * aumento) / 100
 salario_n = salario + novo
 print('O seu salário é R$ {:.2f}, com aumento de {:.0f} % '.format(salario, aumento), end='')
 print('o seu novo salário é R$ {:.2f}, parabéns!'.format(salario_n))
-
-
