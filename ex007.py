@@ -1,7 +1,7 @@
 """
-curso Python 3 - Exercício Python #007
-crie um algoritmo que leia as duas notas do aluno e mostre a sua média
-24.10.2020 - Felipe Ferreira de Aguiar
+    curso Python 3 - Exercício Python #007
+    crie um algoritmo que leia as duas notas do aluno e mostre a sua média
+    24.10.2020 - Felipe Ferreira de Aguiar
 """
 
 n1 = float(input('Digite a sua primeira nota '))

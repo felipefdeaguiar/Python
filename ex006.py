@@ -1,7 +1,7 @@
 """
-curso Python 3 - Exercício Python #006
-crie um programa que leia um número e mostre seu dobro, triplo e raiz quadrada
-20.10.2020 - Felipe Ferreira de Aguiar
+    curso Python 3 - Exercício Python #006
+    crie um programa que leia um número e mostre seu dobro, triplo e raiz quadrada
+    20.10.2020 - Felipe Ferreira de Aguiar
 """
 
 n1 = float(input('Digite um valor '))

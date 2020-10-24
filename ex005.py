@@ -1,7 +1,7 @@
 """
-curso Python 3 - Exercício Python #005
-crie um programa que leia um numero inteiro e mostre na tela seu sucessor e antecessor
-20.10.2020 - Felipe Ferreira de Aguiar
+    curso Python 3 - Exercício Python #005
+    crie um programa que leia um numero inteiro e mostre na tela seu sucessor e antecessor
+    20.10.2020 - Felipe Ferreira de Aguiar
 """
 
 n1 = int(input('Digite um numero inteiro '))

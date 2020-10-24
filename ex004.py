@@ -1,7 +1,7 @@
 """
-curso Python 3 - Exercício Python #004
-crie um programa que leia algo do teclado e mostre na tela seu tipo primitivo e todas as informações
-19.10.2020 - Felipe Ferreira de Aguiar
+    curso Python 3 - Exercício Python #004
+    crie um programa que leia algo do teclado e mostre na tela seu tipo primitivo e todas as informações
+    19.10.2020 - Felipe Ferreira de Aguiar
 """
 
 x = input('Digite algo aqui ')

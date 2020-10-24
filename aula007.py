@@ -1,6 +1,7 @@
-"""curso Python 3 - Aula 007 - Operadores Aritméticos
-Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
-19.10.2020 - Felipe Ferreira de Aguiar
+"""
+    curso Python 3 - Aula 007 - Operadores Aritméticos
+    nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
+    19.10.2020 - Felipe Ferreira de Aguiar
 """
 
 number_1 = int(input('Digite um valor inteiro '))
@@ -52,7 +53,7 @@ tab_8 = n1 * 8
 tab_9 = n1 * 9
 tab_10 = n1 * 10
 print('A tabuada até 10 é {},{},{},{},{},'.format(n1, tab_2, tab_3, tab_4, tab_5), end='')
-print('{},{},{},{}e{}'.format(tab_6, tab_7, tab_8, tab_9, tab_10))
+print('{},{},{},{},{}'.format(tab_6, tab_7, tab_8, tab_9, tab_10))
 
 #todo desafio 010 - crie um programa que leia quanto dinheiro uma pessoa tem na carteira e
 #mostre quantos dolares ela pode comprar (cambio USD 3,27)
