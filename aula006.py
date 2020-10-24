@@ -9,13 +9,13 @@ number_2 = float(input('digite outro '))
 sum = number_1 + number_2
 print('A soma entre {} e {} vale {}'.format(number_1, number_2, sum))
 
-#desafio 003 - crie um programa que leia dois numeros e mostre a soma entre eles.
+#todo desafio 003 - crie um programa que leia dois numeros e mostre a soma entre eles.
 number_1 = float(input('Qual o primeiro número? '))
 number_2 = float(input('Qual o segundo número? '))
 sum = number_1 + number_2
 print('A soma de {} com {} é igual a {}'.format(number_1, number_2, sum))
 
-#desafio 004 - crie um programa que leia o input do teclado e mostre na tela seu tipo primitivo e todas as informações
+#todo desafio 004 - crie um programa que leia o input do teclado e mostre na tela seu tipo primitivo e todas as informações
 x = input('digite algo aqui! ')
 print('Qual é o tipo primitivo digitado {}'.format(type(x)))
 print('O que foi digitado é uma letra ? {}'.format(x.isalpha()))

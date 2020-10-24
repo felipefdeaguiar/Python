@@ -1,6 +1,6 @@
 """
 curso Python 3 - Exercício Python #006
-crie um algoritmo que leia um número e mostre seu dobro, triplo e raiz quadrada
+crie um programa que leia um número e mostre seu dobro, triplo e raiz quadrada
 20.10.2020 - Felipe Ferreira de Aguiar
 """
 
