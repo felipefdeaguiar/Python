@@ -1,6 +1,8 @@
-#curso de Python 3 - Mundo 1: Fundamentos
-#https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
-#16.10.2020 - Felipe Ferreira de Aguiar
+"""
+curso de Python 3 - Mundo 1: Fundamentos
+https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
+16.10.2020 - Felipe Ferreira de Aguiar
+"""
 
 #escrever na tela
 print('Olá, Mundo!')
