@@ -1,8 +1,7 @@
 """
     curso Python 3 - Exercício Python #015
-    crie um programa que pergunte a quantidade de KM percorridos por um carro alugado e a quantidade
-    de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que custa R$ 60 a diaria
-    e R$ 0,15 por KM rodado
+    crie um programa que pergunte a quantidade de KM percorridos e dias por um carro alugado 
+    calcule o preço a pagar, sabendo que custa R$ 60 a diaria e R$ 0,15 por KM rodado
     25.10.2020 - Felipe Ferreira de Aguiar
 """
 
