@@ -4,6 +4,9 @@
     04.11.2020 - Felipe Ferreira de Aguiar
 """
 
+# ** ambientes virtuais 
+# ** https://cadernoscicomp.com.br/criar-ambientes-virtuais-para-o-python-com-o-virtualenv-no-ubuntu/
+
 #! from math import sqrt, outra forma de importar somente um modulo.
 import math
 num = int(input('Digite um numero inteiro '))
@@ -12,8 +15,13 @@ print('A raiz de {} é igual a {:.2f}'.format(num, raiz))
 
 #todo importar a biblioteca random e mostrar um numero inteiro aleatorio
 import random
-num = random.randint(1, 100)
-print (num)
+num = random.randint(1, 400)
+print(num)
+
+#todo mostrar 10 numeros aleatorios
+import random
+result = random.sample(range(0,100), 10)
+print('Os numeros sorteados são {}'.format(result))
 
 #todo desafio 016 - crie um programa que leia um numero real e mostre sua porção inteira
 import math
@@ -56,3 +64,7 @@ sort = random.sample([aluno_1, aluno_2, aluno_3, aluno_4], k=4)
 print('A apresentação será nessa ordem {}'.format(sort))
 
 #todo desafio 021 - faça um programa que abra um arquivo MP3 e reproduza ou outros
+import pyglet
+music = pyglet.resource.media('01.mp3')
+music.play()
+pyglet.app.run()
