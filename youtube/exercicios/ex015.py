@@ -5,7 +5,7 @@
     25.10.2020 - Felipe Ferreira de Aguiar
 """
 
-name = input ('Qual o seu nome ? ')
+name = input('Qual o seu nome ? ')
 day = int(input('Digite quantos dias voce ficou com o carro ? '))
 km = float(input('Digite o quantidade de KM que voce rodou ? '))
 t1 = day * 60
