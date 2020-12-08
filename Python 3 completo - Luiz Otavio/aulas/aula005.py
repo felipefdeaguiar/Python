@@ -1,5 +1,4 @@
 """
-    Python 3 completo - programação com Django, PyQT5, Selenium, Regexp, Testes e TDD, POO, Design Patterns GoF, algoritmos - Luiz Otavio Miranda
     7.12.2020 - Felipe Ferreira de Aguiar
     * Operadores aritméticos
     * + = Adição
