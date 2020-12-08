@@ -29,7 +29,7 @@ num_2 = 2
 teste = num_1 != num_2
 print(teste)
 
-# todo Desafio, uma pessoa so pode pegar um emprestimo se for maior de idade
+# todo Desafio, uma pessoa so pode pegar um emprestimo se tiver entre 18 a 69 anos
 
 nome = input('Qual o seu nome ? ')
 idade = int(input('Quando voce nasceu ? ex: 1985 '))
@@ -62,5 +62,5 @@ else:
     print('======Analise Concluida======')
     print(f'{nome} seu emprestimo não foi liberado, agradeçemos a preferencia')
     print('')
-    
+
 # ! Operadores Logicos and (e), or (ou), not (não), in, not in
