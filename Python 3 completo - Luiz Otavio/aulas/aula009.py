@@ -32,7 +32,7 @@ print(teste)
 # todo Desafio, uma pessoa so pode pegar um emprestimo se tiver entre 18 a 69 anos
 
 nome = input('Qual o seu nome ? ')
-idade = int(input('Quando voce nasceu ? ex: 1985 '))
+idade = int(input('Qual foi o ano (xxxx) que voce nasceu ? '))
 renda = float(input('Qual a sua renda mensal ? '))
 emprestimo = float(input('Qual seria o valor do emprestimo ? '))
 
@@ -40,7 +40,7 @@ maior_idade = 2020 - idade
 credito = emprestimo / renda
 credor = emprestimo * 1.23
 
-if maior_idade >= 18 and idade < 70:
+if maior_idade >= 18 and maior_idade < 70:
     print('')
     print('Ok voce é maior de 18 anos, vamos prosseguir com a analise')
     print('')
@@ -64,3 +64,14 @@ else:
     print('')
 
 # ! Operadores Logicos and (e), or (ou), not (não), in, not in
+
+usuario = input('Qual o seu nome de usuário: ')
+senha = input('Qual o sua senha: ')
+
+usuario_bd = 'Felipe'
+senha_bd = '123456'
+
+if usuario == usuario_bd and senha == senha_bd:
+    print(f'Ola {usuario} voce esta logado no sistema')
+else:
+    print(f'Ola {usuario} voce não foi encontrado no banco de dados, favor verificar')
