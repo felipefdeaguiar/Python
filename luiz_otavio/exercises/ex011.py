@@ -3,6 +3,20 @@
     Documentação e funções built-in
 """
 
+# ! Validação / Check do input convertendo em inteiro
+
+num_1 = input('Digite um numero inteiro ')
+num_2 = input('Digite outro numero inteiro ')
+
+if num_1.isdigit() and num_2.isdigit():
+    num_1 = int(num_1)
+    num_2 = int(num_2)
+    print(f'A soma do {num_1} com {num_2} é igual a {(num_1) + (num_2)}')
+else:
+    print('Favor verficar o que foi digitado')
+
+
+# ! Funções prontas
 # ? Docs Python - https://docs.python.org/pt-br/3/library/stdtypes.html
 # ? GitHub Luiz Otavio - https://github.com/luizomf/check-numbers-python/blob/master/chk_numbers.py
 
