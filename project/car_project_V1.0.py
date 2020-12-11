@@ -138,3 +138,5 @@ if fuel_car == 2 and turbo_car == 0 and stage_car == 3:
     whp_md_car = whp_orig_car * 1.13
     kgmf_md_car = kgmf_orig_car * 1.54
     resposta()
+else:
+    print('Verifique os dados digitados')
