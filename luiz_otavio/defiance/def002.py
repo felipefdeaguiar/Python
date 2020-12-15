@@ -5,20 +5,23 @@
 
 """
     Ex 001
-    Faça um programa que peça ao usuário para digitar um numero inteiro, informe se esse 
-    número é par ou impar, e caso o usuário digite um numero que não seja inteiro informe a ele
+    Faça um programa que peça ao usuário para digitar um número inteiro,
+    informe se este número é par ou ímpar. Caso o usuário não digite um número
+    inteiro, informe que não é um número inteiro.
 """
 
 """
     Ex 002
-    Faça um programa que pergunte a hora ao usuário, e baseado nisso exiba a saudação apropriada,
-    ex: Bom dia (0-11), Boa Tarde (12-17) e Boa Noite (18-23)
+    Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
+    descrito, exiba a saudação apropriada. Ex. 
+    Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
 
 """
     Ex 003
-    Faça um programa que leia o nome do usuário, se o nome tiver 4 letras ou menos escreva seu nome
-    é muito curto, se tiver entre 5 e 6 escreva seu nome é normal, e se tiver acima disso escreva seu nome é grande
+    Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
+    menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
+    "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
 
 # todo Ex 001
@@ -37,16 +40,22 @@ else:
 
 # todo Ex 002
 
-hora = int(input('Digite a hora que está no seu relógio : '))
+hora = input('Digite a hora que está no seu relógio : ')
 
-if hora <= 11:
-    print('Ola tenha um Bom Dia!')
-elif hora >=12 and hora < 18:
-    print('Ola tenha uma boa tarde')
-elif hora >=18 and hora <=23:
-    print('Ola tenha uma boa noite')
+if hora.isdigit():
+    hora = int(hora)
+
+    if hora < 0 or hora > 23:
+        print('O valor digiado deve estar entre 0 ate 23 horas')
+    else:
+        if hora <= 11:
+            print('Bom dia!')
+        elif hora <=17:
+            print('Boa tarde')
+        else:
+            print('Boa noite')    
 else:
-    print('Veja o valor da hora digitado')
+    print('Isso não é um valor certo')
 
 # todo Ex 003
 
@@ -69,3 +78,4 @@ elif validacao <= 0:
     print('')
     print(' Espertinho(a) voce não digitou nada')
     print('')
+
