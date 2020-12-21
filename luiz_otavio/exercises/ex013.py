@@ -33,3 +33,7 @@ print(f'{num_1:0>10.2f}')
 # ! Formatando strings com nome no meio e cerquilhas até 30 caracteres
 nome = 'Felipe Aguiar'
 print(f'{nome:#^30}')
+
+# ! Formatando strings para caracteres minusculos
+nome = 'Felipe Aguiar'
+print(nome.lower())
