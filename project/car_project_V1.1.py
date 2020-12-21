@@ -22,7 +22,7 @@ def resposta():
     print('Analisando Banco de Dados')
     print('')
     print('')
-    print('================== Concluido ================== ')
+    print('========== Concluido =========== ')
     print('')
     print(f'A potencia estimada do {model_car} do cliente {nome_client} foi para {whp_md_car:.2f} Whp')
     print(f'O Torque estimado do {model_car} do cliente {nome_client} foi para {kgmf_md_car:.2f} kgf/m ')
