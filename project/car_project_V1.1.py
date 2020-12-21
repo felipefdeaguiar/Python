@@ -31,6 +31,7 @@ def resposta():
     print('========== Program By Felipe Aguiar =========== ')
     print('')
 
+# ! todo validação entrada de dados
 def validacao():
     if cpf_client.isdigit() and ano_car.isdigit() and fuel_car.isdigit() and whp_orig_car.isdigit() and kgmf_orig_car and turbo_car.isdigit() and kg_car.isdigit() and stage_car.isdigit():
         pass
