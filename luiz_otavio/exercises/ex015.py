@@ -58,6 +58,3 @@ while True:
         print(num_1 / num_2)
     else:
         print('Operador Invalido')
-
-   
-    
