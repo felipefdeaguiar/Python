@@ -35,6 +35,10 @@ while True:
     num_1 = input('Digite o primeiro numero inteiro ')
     num_2 = input('Digite o segundo numero inteiro ')
     operador = input('Digite o operador ')
+    sair = input('Deseja sair ? [s] ou [n] ')
+
+    if sair == 's':
+        break
 
     if not num_1.isnumeric() or not num_2.isnumeric():
         print('Voce precisa digitar um valor correto')
