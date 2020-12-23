@@ -29,4 +29,3 @@ str = 'Felipe Aguiar'
 nova_str = str[2:6]
 print(nova_str)
 
-
