@@ -14,7 +14,7 @@ while contador <= 10:
 else:
     print('acabei meus calculos')
 
-# ! Estrutura simples de contador e acumulador (com um break sem passar para o Else)
+# ! Estrutura simples de contador e acumulador (com um break dentro do laço)
 contador = 1
 acumulador = 1
 
@@ -27,4 +27,4 @@ while contador <= 10:
         break
 
 else:
-    print('acabei meus calculos')
+    print('isso não será executado')
