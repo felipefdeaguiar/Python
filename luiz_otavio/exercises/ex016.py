@@ -1,5 +1,5 @@
 """
-    06.01.2021 - Felipe Ferreira de Aguiar
+    05.01.2021 - Felipe Ferreira de Aguiar
     Estrutura de repetição While / Else (Contador / acumulador)
 """
 
