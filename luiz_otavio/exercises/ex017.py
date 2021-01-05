@@ -8,4 +8,6 @@
 
 frase = 'o rato roeu a roupa do rei de roma'
 tamanho_frase = len(frase)
-print(tamanho_frase)
+contador = 0
+contador = contador + 1
+
