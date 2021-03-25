@@ -1,14 +1,14 @@
 """
     curso Python 3 - Exercício Python #019
-    Um professor quer sortear um dos seus quatro alunos para apagar seu quadro,
-    faça um programa que ajude ele, lendo o nome dos alunos e sorteano um.
+    Um professor quer sortear a ordem de apresentaçao dos seus quatro alunos,
+    faça um programa que ajude ele, lendo o nome dos alunos e listando a ordem.
     25.03.2021 - Felipe Ferreira de Aguiar
 """
 
-from random import choice
+import random
 a1 = str(input('Digite o nome do aluno 1 '))
 a2 = str(input('Digite o nome do aluno 2 '))
 a3 = str(input('Digite o nome do aluno 3 '))
 a4 = str(input('Digite o nome do aluno 4 '))
-sorteador = choice([a1, a2, a3, a4])
-print(f'O aluno sorteado foi o {sorteador}')
+lista = random.sample([a1, a2, a3, a4], k=4)
+print(f'A ordem da apresentação é {lista}')
