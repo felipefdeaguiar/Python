@@ -8,4 +8,4 @@
 from math import hypot
 cateto_o = float(input('Digite o valor do cateto oposto '))
 cateto_a = float(input('Digite o valor do cateto adjacente '))
-print(f'O cateto oposto é {cateto_o:.2f}, o cateto adjacente é {cateto_a:.2f} e a hipotenusa {hypot(cateto_o, cateto_a):.2f}')
+print(f'\nO cateto oposto é {cateto_o:.2f}, o cateto adjacente é {cateto_a:.2f} e a hipotenusa {hypot(cateto_o, cateto_a):.2f}\n')
