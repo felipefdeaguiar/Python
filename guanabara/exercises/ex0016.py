@@ -4,7 +4,7 @@
     a sua porção inteira
     25.03.2021 - Felipe Ferreira de Aguiar
 """
-import math
+from math import trunc
 num = float(input('Digite um numero qualquer '))
-print('O valor digitado foi {} e sua porção inteira é {}'.format(num, math.trunc(num)))
+print('O valor digitado foi {} e sua porção inteira é {}'.format(num, trunc(num)))
 
