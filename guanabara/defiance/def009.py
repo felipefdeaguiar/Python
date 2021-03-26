@@ -16,3 +16,9 @@ print(frase[9:21:2])
 print(frase[:5])
 print(frase[15:])
 print(frase[9::3])
+
+#! Análise de strings
+frase = 'Curso em Video Python'
+print(len(frase))
+print(frase.count('o',0,13))
+print(frase.find('deo'))
