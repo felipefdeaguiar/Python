@@ -4,4 +4,10 @@
     26.03.2021 - Felipe Ferreira de Aguiar
 """
 
-#todo 
+#! Indice aprendendo como o computador aloca a memória
+#! frase = 'Curso em Video Python'
+#! indice = 0=C, 1=u, 2=r, ..., h=18, o=19 e n=20
+
+#! Fatiamento de Strings
+frase = 'Curso em Video Python'
+print(frase[9:14])
