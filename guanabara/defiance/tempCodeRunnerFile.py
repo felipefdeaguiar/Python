@@ -1,5 +1,4 @@
 frase = 'Curso em Video Python'
-print(len(frase))
-print(frase.count('o',0,13))
-print(frase.find('deo'))
-print(frase.find('Android'))
+print(frase.replace('Python', 'Android'))
+print(frase.upper())
+print(frase.lower())
