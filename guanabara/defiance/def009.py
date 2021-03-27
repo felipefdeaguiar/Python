@@ -59,7 +59,7 @@ Welcome Welcome Welcome Welcome Welcome""")
 #todo desafio 022 - crie um programa que leia o nome completo de uma pessoa e mostre:
 #1) O nome com todas as letras maiusculas;
 #2) O nome com todos as letras Minusculas;
-#3) Quantas letras tem sem espaço contar os espaços;
+#3) Quantas letras tem sem contar os espaços;
 #4) Quantas letras tem o primeiro nome.
 nome = input('Qual é o seu nome completo ')
 print(f'\nO nome digitado foi {nome}')
