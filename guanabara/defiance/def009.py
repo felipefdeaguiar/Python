@@ -8,7 +8,7 @@
 #! frase = 'Curso em Video Python'
 #! indice = 0=C, 1=u, 2=r, ..., h=18, o=19 e n=20
 
-#! Fatiamento de Strings
+#! Fatiamento de strings
 frase = 'Curso em Video Python'
 print(frase[9:14])
 print(frase[9:21])
@@ -25,7 +25,7 @@ print(frase.find('deo'))
 print(frase.find('Android'))
 print('Curso' in frase)
 
-#! Transformação de Strings
+#! Transformação de strings
 frase = 'Curso em Video Python'
 print(frase,'"Frase 1 Original"')
 print(frase.replace('Python', 'Android'),'"Substituição de uma palavra"')
@@ -44,13 +44,16 @@ frase = 'Curso em Video Python'
 print(frase,'"Frase 1 Original"')
 print(frase.split(),'"Divisão da frase em nomes separados em listas"')
 
-#! Junção de Strings
+#! Junção de strings
 frase = 'Curso em Video Python'
 print(frase,'"Frase 1 Original"')
 print('-'.join(frase),'"Junção de Strings"')
 print(''.join(frase),'"Junção de Strings"')
 
+#! Escrevendo um texto grande em Python com """
+print("""Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome
+Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome
+Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome
+Welcome Welcome Welcome Welcome Welcome""")
+
 #todo 
-
-
-
