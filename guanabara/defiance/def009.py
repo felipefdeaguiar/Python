@@ -38,3 +38,19 @@ print(frase_2,'"Frase 2 Original"')
 print(frase_2.strip(),'"Remoção dos espaços vazios no inicio da String"')
 print(frase_2.rstrip(),'"Remoção dos espaços vazios no fim da String"')
 print(frase_2.lstrip(),'"Remoção dos espaços da esquerda da String"')
+
+#! Divisão de strings
+frase = 'Curso em Video Python'
+print(frase,'"Frase 1 Original"')
+print(frase.split(),'"Divisão da frase em nomes separados em listas"')
+
+#! Junção de Strings
+frase = 'Curso em Video Python'
+print(frase,'"Frase 1 Original"')
+print('-'.join(frase),'"Junção de Strings"')
+print(''.join(frase),'"Junção de Strings"')
+
+#todo 
+
+
+
