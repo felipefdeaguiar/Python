@@ -72,8 +72,9 @@ print(f'A quantidade do primeiro nome são {len(nome_2[0])} caracteres\n')
 
 #todo desafio 023 - crie um programa que leia um numero de 0 a 9999 e mostre na tela cada um dos digitos saparados:
 # ex: Digite um numero: 1834, unidade: 4, dezena: 3, centena: 8 e milhar: 1
-num = input('Digite um valor de 0 à 9999 ')
+num = input('Digite um valor de 1000 à 9999 ')
 if num.isdigit():
     print(f'\nO valor digitado foi {num}\nSua milhar é {num[0]}\nSua centena é {num[1]}\nSua dezena é {num[2]}\nSua unidade é {num[3]}\n')
 else:
-    print('Digite um valor correto')
+    print('Digite um numeral correto')
+
