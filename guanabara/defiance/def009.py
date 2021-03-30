@@ -80,7 +80,15 @@ else:
 
 #todo desafio 024 - crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "Santo"
 name = input('Digite o nome da sua cidade natal ')
-if 'Santo' in name:
-    print(f'\nA cidade digita foi "{name}" e ela tem "Santo" no seu nome\n')
+name_1 = name.split()
+if 'Santo' in name_1[0]:
+    print(f'\nA cidade digita foi "{name}" e ela começa por "Santo"\n')
 else:
-    print(f'\nA cidade digita foi "{name}" e ela não tem "Santo" no seu nome\n')
+    print(f'\nA cidade digita foi "{name}" e ela não começa por "Santo\n')
+
+#todo desafio 025 - crie um programa que leia o nome de uma pessoa e diga se ela tem ou não "Silva" no nome
+name = input('Digite o seu nome completo ')
+if 'Silva' in name:
+    print(f'\nO nome digitado foi "{name}" e ela tem "Silva"\n')
+else:
+    print(f'\nO nome digitado foi "{name}" e ela não tem "Silva\n')
