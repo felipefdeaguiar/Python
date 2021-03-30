@@ -1,7 +1,5 @@
-#! Análise de strings
-frase = 'Curso em Video Python'
-print(len(frase))
-print(frase.count('o',0,13))
-print(frase.find('deo'))
-print(frase.find('Android'))
-print('Curso' in frase)
+name = input('Digite o nome da sua cidade natal ')
+if 'Santo' in name:
+    print(f'\nA cidade digita foi "{name}" e ela tem "Santo" no seu nome')
+else:
+    print(f'\nA cidade digita foi "{name}" e ela não tem "Santo" no seu nome')
