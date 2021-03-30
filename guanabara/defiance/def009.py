@@ -78,3 +78,9 @@ if num.isdigit():
 else:
     print('Digite um numeral correto')
 
+#todo desafio 024 - crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "Santo"
+name = input('Digite o nome da sua cidade natal ')
+if 'Santo' in name:
+    print(f'\nA cidade digita foi "{name}" e ela tem "Santo" no seu nome\n')
+else:
+    print(f'\nA cidade digita foi "{name}" e ela não tem "Santo" no seu nome\n')
