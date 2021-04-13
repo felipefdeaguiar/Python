@@ -1,5 +1,5 @@
 """
-    curso Python 3 - Exercício Python #022
+    curso Python 3 - Exercício Python #023
     Faça um programa que leia um numero de 0 a 9999 e mostre na tela cada um dos digitos saparados
     13.04.2021 - Felipe Ferreira de Aguiar
 """
