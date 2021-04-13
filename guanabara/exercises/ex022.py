@@ -8,7 +8,7 @@
     13.04.2021 - Felipe Ferreira de Aguiar
 """
 
-nome = input('Qual é o seu nome completo ')
+nome = str(input('Qual é o seu nome completo '))
 print(f'\nO nome digitado foi {nome}')
 print('Transformando em Maiusculo:',nome.upper())
 print('Transformando em Minusculo:',nome.lower())

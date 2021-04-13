@@ -1,8 +1,0 @@
-nome = input('Qual é o seu nome completo ')
-print(f'\nO nome digitado foi {nome}')
-print('Transformando em Maiusculo:',nome.upper())
-print('Transformando em Minusculo:',nome.lower())
-nome_1 = nome.replace(" ","")
-print(f'A quantidade do nome completo são {len(nome_1)} caracteres')
-nome_2 = nome.split()
-print(f'A quantidade do primeiro nome são {len(nome_2[0])} caracteres\n')
