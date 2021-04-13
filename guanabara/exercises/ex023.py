@@ -14,4 +14,3 @@ if num.isdigit():
     print(f'\nO valor digitado foi {num}\nSua milhar é {m}\nSua centena é {c}\nSua dezena é {d}\nSua unidade é {u}\n')
 else:
     print('Digite um numero correto')
-
