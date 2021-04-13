@@ -94,3 +94,12 @@ else:
     print(f'\nO nome digitado foi "{name}" e ela não tem "Silva\n')
 
 #todo desafio 026 - crie um programa que leia uma frase e mostre: Quantas vezes aparece a letra a, em que posição ela aparece a primeira e ultima vez
+frase = input('Digite uma frase qualquer ')
+frase_1 = frase.replace(" ","")
+encontro = frase_1.count('a')
+print(f'A frase digitada tem "{len(frase_1)}" letras e contem "{encontro}" vezes a letra a')
+
+#todo desafio 027 - crie um por que leia o nome completo de uma pessoa e mostre o primeiro e ultimo nome de uma pessoa
+nome = input('Digite seu nome completo ')
+nome_1 = nome.split()
+print(f'O primeiro nome digitado foi {nome_1[0]} e o ultimo nome é {nome_1[-1]}')
