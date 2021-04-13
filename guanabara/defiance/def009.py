@@ -92,3 +92,5 @@ if 'Silva' in name:
     print(f'\nO nome digitado foi "{name}" e ela tem "Silva"\n')
 else:
     print(f'\nO nome digitado foi "{name}" e ela não tem "Silva\n')
+
+#todo desafio 026 - crie um programa que leia uma frase e mostre: Quantas vezes aparece a letra a, em que posição ela aparece a primeira e ultima vez
