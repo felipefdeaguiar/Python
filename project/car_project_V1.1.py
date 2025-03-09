@@ -149,4 +149,4 @@ if fuel_car == 2 and turbo_car == 0 and stage_car == 3:
     kgmf_md_car = kgmf_orig_car * 1.54
     resposta()
 else:
-    print('Verifique os dados digitados, algo está errado')
+    print('Verifique os dados digitados, algo está errado, confira')
